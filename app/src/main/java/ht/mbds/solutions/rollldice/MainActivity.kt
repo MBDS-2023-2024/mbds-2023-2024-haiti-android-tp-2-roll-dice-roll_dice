@@ -54,9 +54,9 @@ class MainActivity : AppCompatActivity() {
                 val enteredText: String = s.toString()
                 if (enteredText.isNullOrEmpty()){
                     binding.btnRoll.isEnabled = false
-                    Toast.makeText(thisActivity,"Veuillez entre un nombre entre 1 à 18",Toast.LENGTH_LONG).show()
+                    Toast.makeText(thisActivity,"Veuillez entre un nombre entre 2 à 18",Toast.LENGTH_LONG).show()
                 }else{
-                    if (enteredText.toLong() <1 || enteredText.toLong() >18){
+                    if (enteredText.toLong() <2 || enteredText.toLong() >18){
                         binding.btnRoll.isEnabled = false
                         Toast.makeText(thisActivity,"nombre doit etre superieur à 0 et inferieur à 19",Toast.LENGTH_LONG).show()
                     }else{
