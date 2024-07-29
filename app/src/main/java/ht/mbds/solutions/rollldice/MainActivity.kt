@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 }else{
                     if (enteredText.toLong() <2 || enteredText.toLong() >18){
                         binding.btnRoll.isEnabled = false
-                        Toast.makeText(thisActivity,"nombre doit etre superieur à 0 et inferieur à 19",Toast.LENGTH_LONG).show()
+                        Toast.makeText(thisActivity,"nombre doit etre superieur à 1 et inferieur à 19",Toast.LENGTH_LONG).show()
                     }else{
                         binding.btnRoll.isEnabled = true
                     }
