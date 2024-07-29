@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/diceNumber1"
+        android:id="@+id/diceNumber1_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5"
@@ -21,10 +21,10 @@
         android:id="@+id/btn_roll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Roll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diceNumber1"
+        app:layout_constraintTop_toBottomOf="@+id/diceNumber1_txt"
         tools:layout_editor_absoluteY="388dp" />
 
 
